@@ -21,7 +21,7 @@ client = MongoClient(MONGO_URL, connectTimeoutMS=30000, serverSelectionTimeoutMS
 db = client["Word"]
 chatai = db["WordDb"]
 
-BOT_NAME = os.environ.get("BOT_NAME", "🐰⃟⃞⍣Rᴀᴅʜɪᴋᴀ❥")
+BOT_NAME = os.environ.get("BOT_NAME", "꧁⎯꯭̽𝞄⃕𝝶𝐤꯭᪳𝝶⸼❍͟𝘄𝝶 ꯭❤️᪳⎳𝓸𝓿𝓮❥❤️☆꧂")
 
 RADHIKA = Client(
     "chat-gpt",
@@ -35,7 +35,7 @@ RADHIKA = Client(
 async def start(client: Client, message: Message):
     keyboard = [
         [
-            InlineKeyboardButton("Join 🤒", url="https://t.me/BABY09_WORLD")
+            InlineKeyboardButton("Join 🤒", url="https://t.me/+tb5h2xnX-sNkMjJl")
         ]
     ]
     await message.reply(
